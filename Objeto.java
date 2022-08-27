@@ -1,6 +1,6 @@
 package CTD_B3_Java_Clase10_Ejercicio;
 
-public class Objeto {
+public abstract class  Objeto {
     private int posX;
     private int posY;
     private char direccion;

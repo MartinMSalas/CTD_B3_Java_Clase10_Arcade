@@ -12,6 +12,7 @@ public class Asteroide extends Objeto{
     @Override
     public void irA(int x, int y, char direccion) {
         super.irA(x, y, direccion);
+        // implementar q se mueva en direccion fija con vel random
         System.out.println("Soy una aburridisima teletransportacion ");
         System.out.println("Mi posicion ahora es x: "+x+" y: "+y);
     }
